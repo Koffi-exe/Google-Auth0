@@ -65,7 +65,7 @@ function App() {
       // This if(window.google checks if the script in index is injected or not)
       if (window.google) {
         google.accounts.id.initialize({
-          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+          client_id: '864775536074-e4b2g6v0iq6c1c7le3eqf1eardv16a14.apps.googleusercontent.com',
           // the callback is the function that gets executed once the user is verified 
           callback: handleCallbackResponse,
         })
